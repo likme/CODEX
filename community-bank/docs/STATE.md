@@ -1,3 +1,13 @@
+> Documentation notice
+>
+> This document reflects the **current canonical migration model**.
+> Earlier references to `001_init.sql` and `002_risk.sql` were deprecated and replaced by:
+>
+> - `000_genesis.sql` as the immutable base migration
+> - additive migrations starting at `001_*.sql`
+>
+> Any documentation still referring to the old numbering scheme is obsolete and should not be used as a reference.
+
 # Project State
 
 ## Scope
