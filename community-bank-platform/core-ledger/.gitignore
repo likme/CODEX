@@ -1,0 +1,48 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs / outputs
+*.log
+**/*-summary.txt
+**/*-audit-*.txt
+demo_out/
+out/
+tmp/
+.cache/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Go
+bin/
+dist/
+coverage.out
+*.test
+
+# Node (si jamais)
+node_modules/
+
+# DB / local state
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+*.sql
+
+# Terraform / infra state (si applicable)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
