@@ -26,7 +26,7 @@ dist/
 coverage.out
 *.test
 
-# Node (si jamais)
+# Node
 node_modules/
 
 # DB / local state
@@ -35,9 +35,9 @@ node_modules/
 *.sqlite3
 *.dump
 *.sql.gz
-*.sql
 
-# Terraform / infra state (si applicable)
+
+# Terraform / infra state
 .terraform/
 *.tfstate
 *.tfstate.*
@@ -46,3 +46,7 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+# Allow schema & migrations
+!internal/store/migrations/
+!internal/store/migrations/*.sql
