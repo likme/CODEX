@@ -1,0 +1,4 @@
+666f5a0001cf7205f882c1c3f8baa940d2f315928171794a2f6440e850560fbb  ./factors_uk/ghg-conversion-factors-2025-condensed-set.xlsx
+8bfdb45b81ec4a88e3bdf4584637330f62e6bd09ce1940e654c5d7b7f736de94  ./factors_uk/ghg-conversion-factors-2025-flat-format.xlsx
+c08f24dac724a7598f54a7c7b28ad21fa88ca48d8ebd98cb9e172ffc184b5e5a  ./factors_uk/ghg-conversion-factors-2025-full-set.xlsx
+73e4d94195bfa33d71fc7c03f8f305a95006d05ae4d26e331873aabba947dc8d  ./uk_emissions/final-greenhouse-gas-emissions-2021-by-source-dataset.csv

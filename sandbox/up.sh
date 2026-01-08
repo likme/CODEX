@@ -128,6 +128,12 @@ case "${SCENARIO}" in
   smoke)
     ./e2e_smoke.sh
     ;;
+  retail_30d)
+    ./e2e_retail_30d.sh
+    ;;
+  carbon_mrv)
+    ./e2e_carbon_mrv.sh
+    ;;
   *)
     echo "Unknown scenario: ${SCENARIO}" >&2
     exit 1

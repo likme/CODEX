@@ -1,0 +1,6 @@
+[submodule "infra"]
+	path = infra
+	url = git@github.com:likme/community-bank-infra.git
+[submodule "core-ledger"]
+	path = core-ledger
+	url = git@github.com:likme/community-bank-core-ledger.git

@@ -1,0 +1,17 @@
+seed: 42
+days: 30
+accounts: 1000
+currency: EUR
+
+# Data inputs (public references you already downloaded)
+rates_fedfunds_csv: sandbox/bin/scenario_data/retail_macro/rates/fred_FEDFUNDS.csv
+
+# Behavior
+daily_deposit_prob: 0.02
+daily_transfer_prob: 0.01
+
+min_amount_cents: 100
+max_amount_cents: 500000
+
+# Idempotency prefix (stable per scenario)
+idem_prefix: retail30d

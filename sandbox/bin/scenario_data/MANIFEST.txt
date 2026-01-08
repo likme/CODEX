@@ -1,0 +1,13 @@
+2026-01-08T15:30:18Z	./scenario_data/retail_macro/fx/ecb_eurofxref_latest.zip	https://www.ecb.europa.eu/stats/eurofxref/eurofxref.zip
+2026-01-08T15:30:19Z	./scenario_data/retail_macro/fx/ecb_eurofxref_hist.zip	https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip
+2026-01-08T15:30:19Z	./scenario_data/retail_macro/rates/fred_FEDFUNDS.csv	https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS
+2026-01-08T15:30:20Z	./scenario_data/retail_macro/rates/fred_SOFR.csv	https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR
+2026-01-08T15:30:20Z	./scenario_data/retail_macro/rates/fred_DGS10.csv	https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-01-08T15:30:21Z	./scenario_data/retail_macro/rates/fred_DGS2.csv	https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-01-08T15:30:21Z	./scenario_data/finance/prices/stooq_AAPL.US.csv	https://stooq.com/q/d/l/?s=aapl.us&i=d
+2026-01-08T15:30:22Z	./scenario_data/finance/prices/stooq_MSFT.US.csv	https://stooq.com/q/d/l/?s=msft.us&i=d
+2026-01-08T15:30:23Z	./scenario_data/finance/prices/stooq_SPY.US.csv	https://stooq.com/q/d/l/?s=spy.us&i=d
+2026-01-08T15:30:23Z	./scenario_data/carbon/factors_uk/ghg-conversion-factors-2025-full-set.xlsx	https://assets.publishing.service.gov.uk/media/6846a4f55e92539572806125/ghg-conversion-factors-2025-full-set.xlsx
+2026-01-08T15:30:25Z	./scenario_data/carbon/factors_uk/ghg-conversion-factors-2025-condensed-set.xlsx	https://assets.publishing.service.gov.uk/media/6846a4e6d25e6f6afd4c0180/ghg-conversion-factors-2025-condensed-set.xlsx
+2026-01-08T15:30:26Z	./scenario_data/carbon/factors_uk/ghg-conversion-factors-2025-flat-format.xlsx	https://assets.publishing.service.gov.uk/media/6846b6ea57f3515d9611f0dd/ghg-conversion-factors-2025-flat-format.xlsx
+2026-01-08T15:30:27Z	./scenario_data/carbon/uk_emissions/final-greenhouse-gas-emissions-2021-by-source-dataset.csv	https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1134700/final-greenhouse-gas-emissions-2021-by-source-dataset.csv

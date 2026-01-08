@@ -1,0 +1,3 @@
+7846754d4a533a45d36e2179d8db18fffb47fee1447ea4dd5165a65e768710e6  ./prices/stooq_AAPL.US.csv
+4646b7520bc5459f1295e40f2caa989d0ae34607d8ba28b7aeb66c5bcd4e60b9  ./prices/stooq_MSFT.US.csv
+92d951dca031bad54d5f3554c76122f29f6739b9a3cad7726c583e462eda9dba  ./prices/stooq_SPY.US.csv

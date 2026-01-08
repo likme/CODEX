@@ -1,0 +1,6 @@
+9b469627c994f177372008f3ae5cb2d64de40d26fac2486bf61911ebc228baa8  ./fx/ecb_eurofxref_hist.zip
+bbd44f61ed0a09a940f5f1c3211116c4c72492ed7c4352663520da357ec36d1f  ./fx/ecb_eurofxref_latest.zip
+23bc1d95d834dbb7e8a55dc0ff0c174c7b272e73a808b8ebea71fe0eb034e53d  ./rates/fred_DGS10.csv
+2aa36a3d785b5812692a584460500161cb3f7b58a1c9500644bdd3f54f26a3b0  ./rates/fred_DGS2.csv
+4c6ce5a3b54a9808f859e329d79cef12c8fe6d1e8775fbde93b294cd29510572  ./rates/fred_FEDFUNDS.csv
+c483733da762b7273890c8f1fc4e4f4914332ef37ad3436e365076f16b6e6ccf  ./rates/fred_SOFR.csv

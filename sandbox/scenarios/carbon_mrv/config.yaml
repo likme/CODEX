@@ -1,0 +1,13 @@
+seed: 1337
+days: 30
+orgs: 200
+currency: EUR
+
+factors_uk_flat_xlsx: sandbox/bin/scenario_data/carbon/factors_uk/ghg-conversion-factors-2025-flat-format.xlsx
+
+# Model: emissions as transfers to a sink account (CO2 cost proxy)
+daily_activity_prob: 0.15
+min_kgco2: 1
+max_kgco2: 500
+
+idem_prefix: carbonmrv

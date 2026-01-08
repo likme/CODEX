@@ -1,0 +1,230 @@
+{
+  "scenario_id": "real_covid2020_v1",
+  "description": "Real public data around Mar 2020. ECB USD/EUR + FRED VIX/DGS10. Haircut derived from VIX proxy rule.",
+  "phases": [
+    {
+      "phase_id": "2020-02-14",
+      "as_of": "2020-02-14T00:00:00Z",
+      "valuations": [
+        {
+          "asset_type": "FX",
+          "asset_id": "ECB:EXR.D.USD.EUR.SP00.A",
+          "as_of": "2020-02-14T00:00:00Z",
+          "price": "1.0842",
+          "currency": "EUR",
+          "source": "ecb",
+          "confidence": 99,
+          "payload": {
+            "series": "EXR.D.USD.EUR.SP00.A"
+          }
+        },
+        {
+          "asset_type": "RATE",
+          "asset_id": "FRED:DGS10",
+          "as_of": "2020-02-14T00:00:00Z",
+          "price": "1.59",
+          "currency": "PCT",
+          "source": "fred",
+          "confidence": 99,
+          "payload": {
+            "series": "DGS10"
+          }
+        }
+      ],
+      "liquidities": [
+        {
+          "asset_type": "FX",
+          "asset_id": "ECB:EXR.D.USD.EUR.SP00.A",
+          "as_of": "2020-02-14T00:00:00Z",
+          "haircut_bps": 200,
+          "time_to_cash_seconds": 86400,
+          "source": "vix_proxy",
+          "payload": {
+            "vix": "13.68",
+            "rule": "clamp((VIX-15)*200,200,4000)"
+          }
+        },
+        {
+          "asset_type": "RATE",
+          "asset_id": "FRED:DGS10",
+          "as_of": "2020-02-14T00:00:00Z",
+          "haircut_bps": 200,
+          "time_to_cash_seconds": 86400,
+          "source": "vix_proxy",
+          "payload": {
+            "vix": "13.68",
+            "rule": "clamp((VIX-15)*200,200,4000)"
+          }
+        }
+      ]
+    },
+    {
+      "phase_id": "2020-03-16",
+      "as_of": "2020-03-16T00:00:00Z",
+      "valuations": [
+        {
+          "asset_type": "FX",
+          "asset_id": "ECB:EXR.D.USD.EUR.SP00.A",
+          "as_of": "2020-03-16T00:00:00Z",
+          "price": "1.1157",
+          "currency": "EUR",
+          "source": "ecb",
+          "confidence": 99,
+          "payload": {
+            "series": "EXR.D.USD.EUR.SP00.A"
+          }
+        },
+        {
+          "asset_type": "RATE",
+          "asset_id": "FRED:DGS10",
+          "as_of": "2020-03-16T00:00:00Z",
+          "price": "0.73",
+          "currency": "PCT",
+          "source": "fred",
+          "confidence": 99,
+          "payload": {
+            "series": "DGS10"
+          }
+        }
+      ],
+      "liquidities": [
+        {
+          "asset_type": "FX",
+          "asset_id": "ECB:EXR.D.USD.EUR.SP00.A",
+          "as_of": "2020-03-16T00:00:00Z",
+          "haircut_bps": 4000,
+          "time_to_cash_seconds": 86400,
+          "source": "vix_proxy",
+          "payload": {
+            "vix": "82.69",
+            "rule": "clamp((VIX-15)*200,200,4000)"
+          }
+        },
+        {
+          "asset_type": "RATE",
+          "asset_id": "FRED:DGS10",
+          "as_of": "2020-03-16T00:00:00Z",
+          "haircut_bps": 4000,
+          "time_to_cash_seconds": 86400,
+          "source": "vix_proxy",
+          "payload": {
+            "vix": "82.69",
+            "rule": "clamp((VIX-15)*200,200,4000)"
+          }
+        }
+      ]
+    },
+    {
+      "phase_id": "2020-03-23",
+      "as_of": "2020-03-23T00:00:00Z",
+      "valuations": [
+        {
+          "asset_type": "FX",
+          "asset_id": "ECB:EXR.D.USD.EUR.SP00.A",
+          "as_of": "2020-03-23T00:00:00Z",
+          "price": "1.0783",
+          "currency": "EUR",
+          "source": "ecb",
+          "confidence": 99,
+          "payload": {
+            "series": "EXR.D.USD.EUR.SP00.A"
+          }
+        },
+        {
+          "asset_type": "RATE",
+          "asset_id": "FRED:DGS10",
+          "as_of": "2020-03-23T00:00:00Z",
+          "price": "0.76",
+          "currency": "PCT",
+          "source": "fred",
+          "confidence": 99,
+          "payload": {
+            "series": "DGS10"
+          }
+        }
+      ],
+      "liquidities": [
+        {
+          "asset_type": "FX",
+          "asset_id": "ECB:EXR.D.USD.EUR.SP00.A",
+          "as_of": "2020-03-23T00:00:00Z",
+          "haircut_bps": 4000,
+          "time_to_cash_seconds": 86400,
+          "source": "vix_proxy",
+          "payload": {
+            "vix": "61.59",
+            "rule": "clamp((VIX-15)*200,200,4000)"
+          }
+        },
+        {
+          "asset_type": "RATE",
+          "asset_id": "FRED:DGS10",
+          "as_of": "2020-03-23T00:00:00Z",
+          "haircut_bps": 4000,
+          "time_to_cash_seconds": 86400,
+          "source": "vix_proxy",
+          "payload": {
+            "vix": "61.59",
+            "rule": "clamp((VIX-15)*200,200,4000)"
+          }
+        }
+      ]
+    },
+    {
+      "phase_id": "2020-04-09",
+      "as_of": "2020-04-09T00:00:00Z",
+      "valuations": [
+        {
+          "asset_type": "FX",
+          "asset_id": "ECB:EXR.D.USD.EUR.SP00.A",
+          "as_of": "2020-04-09T00:00:00Z",
+          "price": "1.0867",
+          "currency": "EUR",
+          "source": "ecb",
+          "confidence": 99,
+          "payload": {
+            "series": "EXR.D.USD.EUR.SP00.A"
+          }
+        },
+        {
+          "asset_type": "RATE",
+          "asset_id": "FRED:DGS10",
+          "as_of": "2020-04-09T00:00:00Z",
+          "price": "0.73",
+          "currency": "PCT",
+          "source": "fred",
+          "confidence": 99,
+          "payload": {
+            "series": "DGS10"
+          }
+        }
+      ],
+      "liquidities": [
+        {
+          "asset_type": "FX",
+          "asset_id": "ECB:EXR.D.USD.EUR.SP00.A",
+          "as_of": "2020-04-09T00:00:00Z",
+          "haircut_bps": 4000,
+          "time_to_cash_seconds": 86400,
+          "source": "vix_proxy",
+          "payload": {
+            "vix": "41.67",
+            "rule": "clamp((VIX-15)*200,200,4000)"
+          }
+        },
+        {
+          "asset_type": "RATE",
+          "asset_id": "FRED:DGS10",
+          "as_of": "2020-04-09T00:00:00Z",
+          "haircut_bps": 4000,
+          "time_to_cash_seconds": 86400,
+          "source": "vix_proxy",
+          "payload": {
+            "vix": "41.67",
+            "rule": "clamp((VIX-15)*200,200,4000)"
+          }
+        }
+      ]
+    }
+  ]
+}
